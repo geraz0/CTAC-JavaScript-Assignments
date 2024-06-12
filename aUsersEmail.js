@@ -22,7 +22,9 @@ let gmail = {
        {name: 'King Tecpile Gonzalez', email: 'kingtecpilegonz@gmail.com', lastmessage: "this is your finished resume"},
        {name: 'Keegan Meyer', email: 'keegan@stiegleredtech.org', lastmessage: "I wanted to confirm the location we will be meeting at for the program."}
     ],
-    drafts: [],
+    drafts: [
+        {name: 'Alex Canady' , email: 'alexcanady@gmail.com' , draftmessage: "What do you want to get for lunch tomorrow?"}
+    ],
     spam: [],
     trash: [],
 };

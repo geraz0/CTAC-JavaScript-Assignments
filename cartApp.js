@@ -41,3 +41,5 @@ addproduct(product);
 
 this.document.getElementById('addProductForm').reset();
 });
+
+document.getElementById('displayCartButton').addEventListener('click', displayCart); 

@@ -9,3 +9,9 @@ function addToCart(product) {
     cart.push(product);
     localStorage.setItem('cart', JSON.stringify(cart));
 }
+
+function removeFromCart(productId) {
+    let cart = JSON.parse(localStorage.getItem('cart')) || [];
+    cart = cart.filter(product => product.id !== productId);
+    localStorage.setItem('cart', JSON.stringify(cart));
+}

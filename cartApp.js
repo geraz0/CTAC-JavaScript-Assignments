@@ -28,3 +28,14 @@ document.getElementById('addProductForm'),addEventListener('submit', function(ev
 
 const productName = document.getElementById('productName').value;
 const productPrice = parseFloat(document.getElementById('productPrice').value);
+
+const itemId = Date.now().toString();
+
+const item = {
+    id: productId,
+    name: productName,
+    price: productPrice
+};
+
+addproduct(product);
+

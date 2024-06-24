@@ -6,6 +6,18 @@
     <title>Document</title>
 </head>
 <body>
-    <script text="javascript" src="cartApp.js"></script>
+    <h1>Shopping Cart</h1>
+
+    <form id="addItemForm">
+      <label for="itemName">Item Name:</label>
+      <input type="text" id="itemName" name="itemName" required>
+      <label for="itemPrice">Item Price:</label>
+      <input type="number" step="0.01" id="itemPrice" name="itemPrice" required>
+      <button type="submit">Add Item</button>
+    </form>
+  
+    <button id="displayCartButton">Display Cart</button>
+  
+    <script src="cartApp.js"></script>
 </body>
 </html>

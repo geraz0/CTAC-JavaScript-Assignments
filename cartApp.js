@@ -22,3 +22,9 @@ function displayCart() {
 }
 
 initializeCart();
+
+document.getElementById('addProductForm'),addEventListener('submit', function(event) {
+    event.preventDefault();
+
+const productName = document.getElementById('productName').value;
+const productPrice = parseFloat(document.getElementById('productPrice').value);

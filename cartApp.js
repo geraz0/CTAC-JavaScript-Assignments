@@ -15,3 +15,9 @@ function removeFromCart(productId) {
     cart = cart.filter(product => product.id !== productId);
     localStorage.setItem('cart', JSON.stringify(cart));
 }
+
+function displayCart() {
+    const cart = JSON.parse(localStorage.getItem('cart')) || [];
+    console.log(cart);
+}
+

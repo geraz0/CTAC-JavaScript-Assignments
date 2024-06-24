@@ -21,3 +21,4 @@ function displayCart() {
     console.log(cart);
 }
 
+initializeCart();

@@ -39,3 +39,5 @@ const item = {
 
 addproduct(product);
 
+this.document.getElementById('addProductForm').reset();
+});
